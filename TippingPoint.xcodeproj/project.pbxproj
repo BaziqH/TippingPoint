@@ -6,6 +6,40 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		009BF8412FADC2DE001A3E94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BF8302FADC2DE001A3E94 /* AppDelegate.swift */; };
+		009BF8422FADC2DE001A3E94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BF8312FADC2DE001A3E94 /* SceneDelegate.swift */; };
+		009BF8452FADC2DE001A3E94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009BF8342FADC2DE001A3E94 /* Assets.xcassets */; };
+		009BF8462FADC2DE001A3E94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009BF8372FADC2DE001A3E94 /* LaunchScreen.storyboard */; };
+		009BF8472FADC2DE001A3E94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009BF8392FADC2DE001A3E94 /* Main.storyboard */; };
+		009BF84C2FADC2DE001A3E94 /* TippingPointUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BF8492FADC2DE001A3E94 /* TippingPointUITests.swift */; };
+		009BF84D2FADC2DE001A3E94 /* TippingPointUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BF84A2FADC2DE001A3E94 /* TippingPointUITestsLaunchTests.swift */; };
+		009BF8502FADC2DE001A3E94 /* TippingPointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BF84E2FADC2DE001A3E94 /* TippingPointTests.swift */; };
+		009BF8572FADC320001A3E94 /* CompositionalLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BF8552FADC320001A3E94 /* CompositionalLayout.swift */; };
+		009BF8582FADC320001A3E94 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BF8522FADC320001A3E94 /* ColorExtensions.swift */; };
+		009BF8592FADC320001A3E94 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BF8532FADC320001A3E94 /* Constants.swift */; };
+		009BF85A2FADC320001A3E94 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BF8542FADC320001A3E94 /* DesignableView.swift */; };
+		009BF85B2FADC320001A3E94 /* FadedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BF8512FADC320001A3E94 /* FadedImage.swift */; };
+		009BF87D2FADC3DD001A3E94 /* Home+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BF8722FADC3DD001A3E94 /* Home+TableView.swift */; };
+		009BF8832FADC3DD001A3E94 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BF8712FADC3DD001A3E94 /* HomeVC.swift */; };
+		009BF8882FADC450001A3E94 /* InfoTVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BF8862FADC450001A3E94 /* InfoTVuCell.swift */; };
+		009BF8892FADC450001A3E94 /* InfoTVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009BF8872FADC450001A3E94 /* InfoTVuCell.xib */; };
+		00B86ACF2FAE075A0043A916 /* ServicesTVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B86ACD2FAE075A0043A916 /* ServicesTVuCell.swift */; };
+		00B86AD02FAE075A0043A916 /* ServicesTVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00B86ACE2FAE075A0043A916 /* ServicesTVuCell.xib */; };
+		00B86AD32FAE102B0043A916 /* ContactUsTVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B86AD12FAE102B0043A916 /* ContactUsTVuCell.swift */; };
+		00B86AD42FAE102B0043A916 /* ContactUsTVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00B86AD22FAE102B0043A916 /* ContactUsTVuCell.xib */; };
+		00D0008A2FADE8FB007B0B53 /* Home+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D000892FADE8F4007B0B53 /* Home+Model.swift */; };
+		00D0008D2FADF10F007B0B53 /* HeadingTVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D0008B2FADF10F007B0B53 /* HeadingTVuCell.swift */; };
+		00D0008E2FADF10F007B0B53 /* HeadingTVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00D0008C2FADF10F007B0B53 /* HeadingTVuCell.xib */; };
+		00D000912FADFA10007B0B53 /* Services+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D000902FADFA07007B0B53 /* Services+TableView.swift */; };
+		00D000942FADFA29007B0B53 /* ServicesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D000922FADFA29007B0B53 /* ServicesVC.swift */; };
+		00D0009F2FADFEEF007B0B53 /* PropositionsTVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D0009D2FADFEEF007B0B53 /* PropositionsTVuCell.swift */; };
+		00D000A02FADFEEF007B0B53 /* PropositionsTVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00D0009E2FADFEEF007B0B53 /* PropositionsTVuCell.xib */; };
+		00D000A32FADFFC9007B0B53 /* PropositionCVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D000A12FADFFC9007B0B53 /* PropositionCVuCell.swift */; };
+		00D000A42FADFFC9007B0B53 /* PropositionCVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00D000A22FADFFC9007B0B53 /* PropositionCVuCell.xib */; };
+		00DFE66A2FD016DB0024D939 /* TippingPoint.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00DFE6672FD016DB0024D939 /* TippingPoint.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		009BF80E2FADC28A001A3E94 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,38 +61,39 @@
 		009BF7F42FADC286001A3E94 /* TippingPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TippingPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		009BF80D2FADC28A001A3E94 /* TippingPointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TippingPointTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		009BF8172FADC28A001A3E94 /* TippingPointUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TippingPointUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		009BF8302FADC2DE001A3E94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		009BF8312FADC2DE001A3E94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		009BF8342FADC2DE001A3E94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		009BF8362FADC2DE001A3E94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		009BF8382FADC2DE001A3E94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		009BF83C2FADC2DE001A3E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		009BF8492FADC2DE001A3E94 /* TippingPointUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TippingPointUITests.swift; sourceTree = "<group>"; };
+		009BF84A2FADC2DE001A3E94 /* TippingPointUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TippingPointUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		009BF84E2FADC2DE001A3E94 /* TippingPointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TippingPointTests.swift; sourceTree = "<group>"; };
+		009BF8512FADC320001A3E94 /* FadedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadedImage.swift; sourceTree = "<group>"; };
+		009BF8522FADC320001A3E94 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		009BF8532FADC320001A3E94 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		009BF8542FADC320001A3E94 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		009BF8552FADC320001A3E94 /* CompositionalLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalLayout.swift; sourceTree = "<group>"; };
+		009BF8712FADC3DD001A3E94 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		009BF8722FADC3DD001A3E94 /* Home+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home+TableView.swift"; sourceTree = "<group>"; };
+		009BF8862FADC450001A3E94 /* InfoTVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTVuCell.swift; sourceTree = "<group>"; };
+		009BF8872FADC450001A3E94 /* InfoTVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoTVuCell.xib; sourceTree = "<group>"; };
+		00B86ACD2FAE075A0043A916 /* ServicesTVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTVuCell.swift; sourceTree = "<group>"; };
+		00B86ACE2FAE075A0043A916 /* ServicesTVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ServicesTVuCell.xib; sourceTree = "<group>"; };
+		00B86AD12FAE102B0043A916 /* ContactUsTVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsTVuCell.swift; sourceTree = "<group>"; };
+		00B86AD22FAE102B0043A916 /* ContactUsTVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactUsTVuCell.xib; sourceTree = "<group>"; };
+		00D000892FADE8F4007B0B53 /* Home+Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home+Model.swift"; sourceTree = "<group>"; };
+		00D0008B2FADF10F007B0B53 /* HeadingTVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingTVuCell.swift; sourceTree = "<group>"; };
+		00D0008C2FADF10F007B0B53 /* HeadingTVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeadingTVuCell.xib; sourceTree = "<group>"; };
+		00D000902FADFA07007B0B53 /* Services+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services+TableView.swift"; sourceTree = "<group>"; };
+		00D000922FADFA29007B0B53 /* ServicesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesVC.swift; sourceTree = "<group>"; };
+		00D0009D2FADFEEF007B0B53 /* PropositionsTVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropositionsTVuCell.swift; sourceTree = "<group>"; };
+		00D0009E2FADFEEF007B0B53 /* PropositionsTVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PropositionsTVuCell.xib; sourceTree = "<group>"; };
+		00D000A12FADFFC9007B0B53 /* PropositionCVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropositionCVuCell.swift; sourceTree = "<group>"; };
+		00D000A22FADFFC9007B0B53 /* PropositionCVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PropositionCVuCell.xib; sourceTree = "<group>"; };
+		00DFE6692FD016DB0024D939 /* TippingPoint.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TippingPoint.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		009BF81F2FADC28A001A3E94 /* Exceptions for "TippingPoint" folder in "TippingPoint" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 009BF7F32FADC286001A3E94 /* TippingPoint */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		009BF7F62FADC286001A3E94 /* TippingPoint */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				009BF81F2FADC28A001A3E94 /* Exceptions for "TippingPoint" folder in "TippingPoint" target */,
-			);
-			path = TippingPoint;
-			sourceTree = "<group>";
-		};
-		009BF8102FADC28A001A3E94 /* TippingPointTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TippingPointTests;
-			sourceTree = "<group>";
-		};
-		009BF81A2FADC28A001A3E94 /* TippingPointUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TippingPointUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		009BF7F12FADC286001A3E94 /* Frameworks */ = {
@@ -88,9 +123,9 @@
 		009BF7EB2FADC286001A3E94 = {
 			isa = PBXGroup;
 			children = (
-				009BF7F62FADC286001A3E94 /* TippingPoint */,
-				009BF8102FADC28A001A3E94 /* TippingPointTests */,
-				009BF81A2FADC28A001A3E94 /* TippingPointUITests */,
+				009BF83F2FADC2DE001A3E94 /* TippingPoint */,
+				009BF84F2FADC2DE001A3E94 /* TippingPointTests */,
+				009BF84B2FADC2DE001A3E94 /* TippingPointUITests */,
 				009BF7F52FADC286001A3E94 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +138,171 @@
 				009BF8172FADC28A001A3E94 /* TippingPointUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		009BF8322FADC2DE001A3E94 /* App Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				009BF8302FADC2DE001A3E94 /* AppDelegate.swift */,
+				009BF8312FADC2DE001A3E94 /* SceneDelegate.swift */,
+			);
+			path = "App Delegates";
+			sourceTree = "<group>";
+		};
+		009BF8332FADC2DE001A3E94 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				009BF8732FADC3DD001A3E94 /* Home */,
+				00D0008F2FADF585007B0B53 /* Services */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		009BF8352FADC2DE001A3E94 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				009BF8342FADC2DE001A3E94 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		009BF83A2FADC2DE001A3E94 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				009BF8372FADC2DE001A3E94 /* LaunchScreen.storyboard */,
+				009BF8392FADC2DE001A3E94 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		009BF83B2FADC2DE001A3E94 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				009BF8352FADC2DE001A3E94 /* Assets */,
+				009BF83A2FADC2DE001A3E94 /* Storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		009BF83F2FADC2DE001A3E94 /* TippingPoint */ = {
+			isa = PBXGroup;
+			children = (
+				009BF8562FADC320001A3E94 /* Globals */,
+				009BF8322FADC2DE001A3E94 /* App Delegates */,
+				00DFE6682FD016DB0024D939 /* Models */,
+				009BF83B2FADC2DE001A3E94 /* Views */,
+				009BF8332FADC2DE001A3E94 /* Controllers */,
+				009BF83C2FADC2DE001A3E94 /* Info.plist */,
+			);
+			path = TippingPoint;
+			sourceTree = "<group>";
+		};
+		009BF84B2FADC2DE001A3E94 /* TippingPointUITests */ = {
+			isa = PBXGroup;
+			children = (
+				009BF8492FADC2DE001A3E94 /* TippingPointUITests.swift */,
+				009BF84A2FADC2DE001A3E94 /* TippingPointUITestsLaunchTests.swift */,
+			);
+			path = TippingPointUITests;
+			sourceTree = "<group>";
+		};
+		009BF84F2FADC2DE001A3E94 /* TippingPointTests */ = {
+			isa = PBXGroup;
+			children = (
+				009BF84E2FADC2DE001A3E94 /* TippingPointTests.swift */,
+			);
+			path = TippingPointTests;
+			sourceTree = "<group>";
+		};
+		009BF8562FADC320001A3E94 /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				009BF8512FADC320001A3E94 /* FadedImage.swift */,
+				009BF8522FADC320001A3E94 /* ColorExtensions.swift */,
+				009BF8532FADC320001A3E94 /* Constants.swift */,
+				009BF8542FADC320001A3E94 /* DesignableView.swift */,
+				009BF8552FADC320001A3E94 /* CompositionalLayout.swift */,
+			);
+			path = Globals;
+			sourceTree = "<group>";
+		};
+		009BF86F2FADC3DD001A3E94 /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				00D0008B2FADF10F007B0B53 /* HeadingTVuCell.swift */,
+				00D0008C2FADF10F007B0B53 /* HeadingTVuCell.xib */,
+				009BF8862FADC450001A3E94 /* InfoTVuCell.swift */,
+				009BF8872FADC450001A3E94 /* InfoTVuCell.xib */,
+			);
+			path = "Table Cells";
+			sourceTree = "<group>";
+		};
+		009BF8702FADC3DD001A3E94 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				009BF86F2FADC3DD001A3E94 /* Table Cells */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		009BF8732FADC3DD001A3E94 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				009BF8702FADC3DD001A3E94 /* Cells */,
+				009BF8712FADC3DD001A3E94 /* HomeVC.swift */,
+				009BF8722FADC3DD001A3E94 /* Home+TableView.swift */,
+				00D000892FADE8F4007B0B53 /* Home+Model.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		00D0008F2FADF585007B0B53 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				00D0009C2FADFE8B007B0B53 /* Cells */,
+				00D000922FADFA29007B0B53 /* ServicesVC.swift */,
+				00D000902FADFA07007B0B53 /* Services+TableView.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		00D0009A2FADFE8B007B0B53 /* Collection Cells */ = {
+			isa = PBXGroup;
+			children = (
+				00D000A12FADFFC9007B0B53 /* PropositionCVuCell.swift */,
+				00D000A22FADFFC9007B0B53 /* PropositionCVuCell.xib */,
+			);
+			path = "Collection Cells";
+			sourceTree = "<group>";
+		};
+		00D0009B2FADFE8B007B0B53 /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				00D0009D2FADFEEF007B0B53 /* PropositionsTVuCell.swift */,
+				00D0009E2FADFEEF007B0B53 /* PropositionsTVuCell.xib */,
+				00B86ACD2FAE075A0043A916 /* ServicesTVuCell.swift */,
+				00B86ACE2FAE075A0043A916 /* ServicesTVuCell.xib */,
+				00B86AD12FAE102B0043A916 /* ContactUsTVuCell.swift */,
+				00B86AD22FAE102B0043A916 /* ContactUsTVuCell.xib */,
+			);
+			path = "Table Cells";
+			sourceTree = "<group>";
+		};
+		00D0009C2FADFE8B007B0B53 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				00D0009A2FADFE8B007B0B53 /* Collection Cells */,
+				00D0009B2FADFE8B007B0B53 /* Table Cells */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		00DFE6682FD016DB0024D939 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				00DFE6672FD016DB0024D939 /* TippingPoint.xcdatamodeld */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,9 +319,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				009BF7F62FADC286001A3E94 /* TippingPoint */,
 			);
 			name = TippingPoint;
 			packageProductDependencies = (
@@ -143,9 +340,6 @@
 			dependencies = (
 				009BF80F2FADC28A001A3E94 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				009BF8102FADC28A001A3E94 /* TippingPointTests */,
-			);
 			name = TippingPointTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +359,6 @@
 			);
 			dependencies = (
 				009BF8192FADC28A001A3E94 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				009BF81A2FADC28A001A3E94 /* TippingPointUITests */,
 			);
 			name = TippingPointUITests;
 			packageProductDependencies = (
@@ -225,6 +416,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00B86AD42FAE102B0043A916 /* ContactUsTVuCell.xib in Resources */,
+				00D000A02FADFEEF007B0B53 /* PropositionsTVuCell.xib in Resources */,
+				009BF8452FADC2DE001A3E94 /* Assets.xcassets in Resources */,
+				009BF8462FADC2DE001A3E94 /* LaunchScreen.storyboard in Resources */,
+				00D000A42FADFFC9007B0B53 /* PropositionCVuCell.xib in Resources */,
+				00D0008E2FADF10F007B0B53 /* HeadingTVuCell.xib in Resources */,
+				009BF8472FADC2DE001A3E94 /* Main.storyboard in Resources */,
+				009BF8892FADC450001A3E94 /* InfoTVuCell.xib in Resources */,
+				00B86AD02FAE075A0043A916 /* ServicesTVuCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +449,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				009BF87D2FADC3DD001A3E94 /* Home+TableView.swift in Sources */,
+				00D000942FADFA29007B0B53 /* ServicesVC.swift in Sources */,
+				00D000912FADFA10007B0B53 /* Services+TableView.swift in Sources */,
+				00B86AD32FAE102B0043A916 /* ContactUsTVuCell.swift in Sources */,
+				009BF8832FADC3DD001A3E94 /* HomeVC.swift in Sources */,
+				009BF8412FADC2DE001A3E94 /* AppDelegate.swift in Sources */,
+				009BF8422FADC2DE001A3E94 /* SceneDelegate.swift in Sources */,
+				00D0008A2FADE8FB007B0B53 /* Home+Model.swift in Sources */,
+				009BF8572FADC320001A3E94 /* CompositionalLayout.swift in Sources */,
+				00DFE66A2FD016DB0024D939 /* TippingPoint.xcdatamodeld in Sources */,
+				009BF8582FADC320001A3E94 /* ColorExtensions.swift in Sources */,
+				009BF8882FADC450001A3E94 /* InfoTVuCell.swift in Sources */,
+				00D0008D2FADF10F007B0B53 /* HeadingTVuCell.swift in Sources */,
+				00D0009F2FADFEEF007B0B53 /* PropositionsTVuCell.swift in Sources */,
+				00B86ACF2FAE075A0043A916 /* ServicesTVuCell.swift in Sources */,
+				009BF8592FADC320001A3E94 /* Constants.swift in Sources */,
+				00D000A32FADFFC9007B0B53 /* PropositionCVuCell.swift in Sources */,
+				009BF85A2FADC320001A3E94 /* DesignableView.swift in Sources */,
+				009BF85B2FADC320001A3E94 /* FadedImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +475,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				009BF8502FADC2DE001A3E94 /* TippingPointTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +483,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				009BF84C2FADC2DE001A3E94 /* TippingPointUITests.swift in Sources */,
+				009BF84D2FADC2DE001A3E94 /* TippingPointUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +503,25 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		009BF8372FADC2DE001A3E94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				009BF8362FADC2DE001A3E94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		009BF8392FADC2DE001A3E94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				009BF8382FADC2DE001A3E94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		009BF8212FADC28A001A3E94 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -291,11 +532,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TippingPoint/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tipping Point";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +545,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Drudotstech.TippingPoint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -318,11 +564,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TippingPoint/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tipping Point";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,6 +577,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Drudotstech.TippingPoint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -563,6 +814,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		00DFE6672FD016DB0024D939 /* TippingPoint.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				00DFE6692FD016DB0024D939 /* TippingPoint.xcdatamodel */,
+			);
+			currentVersion = 00DFE6692FD016DB0024D939 /* TippingPoint.xcdatamodel */;
+			path = TippingPoint.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 009BF7EC2FADC286001A3E94 /* Project object */;
 }

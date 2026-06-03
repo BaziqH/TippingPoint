@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SuggestionCVuCell" id="gTV-IL-0wX" customClass="SuggestionCVuCell" customModule="BeanSavings" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="183" height="120"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="183" height="120"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0on-qX-Ua9" customClass="DesignableView" customModule="BeanSavings" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="183" height="120"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_giftcardgreen" translatesAutoresizingMaskIntoConstraints="NO" id="PeS-4k-oAl">
+                                <rect key="frame" x="0.0" y="0.0" width="183" height="120"/>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="PeS-4k-oAl" secondAttribute="bottom" id="9bO-ao-0CY"/>
+                            <constraint firstAttribute="height" constant="120" id="DP2-Id-yhN"/>
+                            <constraint firstItem="PeS-4k-oAl" firstAttribute="leading" secondItem="0on-qX-Ua9" secondAttribute="leading" id="QdY-Yg-PY5"/>
+                            <constraint firstItem="PeS-4k-oAl" firstAttribute="top" secondItem="0on-qX-Ua9" secondAttribute="top" id="nDJ-Iy-qaa"/>
+                            <constraint firstAttribute="trailing" secondItem="PeS-4k-oAl" secondAttribute="trailing" id="tEX-kC-Lyr"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="AllCorner">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="0on-qX-Ua9" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="EYS-6J-J1k"/>
+                <constraint firstItem="0on-qX-Ua9" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="SwE-iL-JSl"/>
+                <constraint firstAttribute="trailing" secondItem="0on-qX-Ua9" secondAttribute="trailing" id="m2L-PG-bpn"/>
+                <constraint firstAttribute="bottom" secondItem="0on-qX-Ua9" secondAttribute="bottom" id="yvT-9E-ZWK"/>
+            </constraints>
+            <size key="customSize" width="183" height="120"/>
+            <point key="canvasLocation" x="193.12977099236642" y="13.380281690140846"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="img_giftcardgreen" width="246" height="205"/>
+    </resources>
+</document>

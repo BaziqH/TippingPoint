@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ServiceGroupCVuCell" id="gTV-IL-0wX" customClass="ServiceGroupCVuCell" customModule="MedOnline" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="246" height="96"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="246" height="96"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K64-dC-sGF" customClass="DesignableView" customModule="MedOnline" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="246" height="96"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ay2-Gx-7cE" customClass="DesignableView" customModule="MedOnline" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="246" height="88"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="sKW-oJ-mVV">
+                                        <rect key="frame" x="8" y="8" width="238" height="80"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="c6O-xx-RLE">
+                                                <rect key="frame" x="0.0" y="0.0" width="178" height="30.333333333333332"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In-clinic Visit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9r3-MW-8aN">
+                                                        <rect key="frame" x="0.0" y="0.0" width="178" height="17"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                                        <color key="textColor" red="0.050980392159999999" green="0.25098039220000001" blue="0.38431372549999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Book Appointment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAD-LQ-UpM">
+                                                        <rect key="frame" x="0.0" y="17" width="178" height="13.333333333333336"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="11"/>
+                                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_doc1" translatesAutoresizingMaskIntoConstraints="NO" id="nUf-Sy-Hbp">
+                                                <rect key="frame" x="178" y="0.0" width="60" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="60" id="jPC-41-KxM"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.96862745098039216" blue="0.90980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="sKW-oJ-mVV" firstAttribute="leading" secondItem="Ay2-Gx-7cE" secondAttribute="leading" constant="8" id="0Ld-ES-6v1"/>
+                                    <constraint firstAttribute="bottom" secondItem="sKW-oJ-mVV" secondAttribute="bottom" id="BaD-Dt-OJW"/>
+                                    <constraint firstAttribute="trailing" secondItem="sKW-oJ-mVV" secondAttribute="trailing" id="EQg-Ab-lZX"/>
+                                    <constraint firstItem="sKW-oJ-mVV" firstAttribute="top" secondItem="Ay2-Gx-7cE" secondAttribute="top" constant="8" id="YhU-zQ-5Uy"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="AllCorner">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="Ay2-Gx-7cE" firstAttribute="leading" secondItem="K64-dC-sGF" secondAttribute="leading" id="AMv-33-86F"/>
+                            <constraint firstAttribute="trailing" secondItem="Ay2-Gx-7cE" secondAttribute="trailing" id="Q0f-Ns-lif"/>
+                            <constraint firstAttribute="bottom" secondItem="Ay2-Gx-7cE" secondAttribute="bottom" constant="8" id="iEz-Nq-nHN"/>
+                            <constraint firstItem="Ay2-Gx-7cE" firstAttribute="top" secondItem="K64-dC-sGF" secondAttribute="top" id="xWi-3X-hKK"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOffsetY">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="K64-dC-sGF" secondAttribute="bottom" id="BXX-AE-0CY"/>
+                <constraint firstItem="K64-dC-sGF" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="REg-uD-4Mi"/>
+                <constraint firstItem="K64-dC-sGF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="gBt-JC-mw5"/>
+                <constraint firstAttribute="trailing" secondItem="K64-dC-sGF" secondAttribute="trailing" id="h5o-vU-zCu"/>
+            </constraints>
+            <size key="customSize" width="246" height="96"/>
+            <connections>
+                <outlet property="mainView" destination="Ay2-Gx-7cE" id="osa-Ru-3aZ"/>
+                <outlet property="serviceLabel" destination="9r3-MW-8aN" id="jzV-7F-X2P"/>
+                <outlet property="serviceSubtitle" destination="fAD-LQ-UpM" id="mEm-dQ-lca"/>
+                <outlet property="sideImage" destination="nUf-Sy-Hbp" id="Hgm-8u-oN6"/>
+            </connections>
+            <point key="canvasLocation" x="332.82442748091603" y="-4.9295774647887329"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="img_doc1" width="1280" height="720"/>
+    </resources>
+</document>
